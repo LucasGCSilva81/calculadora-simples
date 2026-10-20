@@ -6,6 +6,34 @@
     <title>Calculadora Simples.</title>
 </head>
 <body>
-    
-</body>
-</html>
+    <header>
+        <h1>Calculadora Simples</h1>
+        <p>Uma calculadora simples para realizar operações básicas.</p>
+    </header>
+
+    <main>
+        <form id="calculadora">
+            <label for="n1">Primeiro Número:</label>
+            <input type="number" id="n1" placeholder="Digite o primeiro número">
+            <label for="selector">Operação:</label>
+            <select id="selector">
+                <option value="+">Somar</option>
+                <option value="-">Subtrair</option>
+                <option value="*">Multiplicar</option>
+                <option value="/">Dividir</option>
+            </select>
+            <label for="n2">Segundo Número:</label>
+            <input type="number" id="n2" placeholder="Digite o segundo número">
+            <button type="submit">Calcular</button>
+    </form>
+
+    <div id="resultado">
+        <h3>Resultado:</h3>
+        <p id="valorResultado">Digite os números e clique em calcular</p>   
+    </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; Feito por Lucas G C Silva. Todos os direitos reservados.</p>
+    </footer>
