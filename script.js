@@ -36,8 +36,9 @@ formulario.addEventListener("submit", function (event) {
         return;
     }
     calculo = n1 / n2;
+    } else if (operador === "%") {
+        calculo = (n1 * n2) / 100;
     }
-    
     resultado.textContent = `Resultado: ${calculo}`;
 
 });
