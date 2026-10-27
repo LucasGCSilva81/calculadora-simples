@@ -6,5 +6,5 @@
 <p>Segue link.
  <a href="https://www.youtube.com/watch?v=uA3admq5RIg" target="_blank">Canal Alexandre Saints</a></p>
 <br>
-
+ <img src="https://github.com/LucasGCSilva81/calculadora-simples/blob/master/assets/cal-sim.jpeg?raw=true" alt="">
         
